@@ -1,0 +1,16 @@
+"dontscream" 
+{ 
+	"base"          "base" 
+	"title"		"Don't Scream"
+	"category"	"pvp"
+	"maps"		"^ds_"
+	"menusystem"	"1"
+
+    "author_name"   "Fuzzy"
+    "author_email"  ""
+    "author_url"    "https://steamcommunity.com/id/yorkik/"
+
+    "icon"  ""
+    "info"  ""
+    "hide"  "0"
+}
