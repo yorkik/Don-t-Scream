@@ -4,5 +4,3 @@
 Кидать всё в addons
 
 Контент: https://steamcommunity.com/sharedfiles/filedetails/?id=3628823731
-
-P.S. Закиньте режим в мастерскую плиз. Мне лень)))))
