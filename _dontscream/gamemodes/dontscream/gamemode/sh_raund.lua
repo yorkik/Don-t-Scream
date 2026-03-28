@@ -231,11 +231,11 @@ end
 
         if #players == 0 then return end
 
-        local availableRoles = {TEAM_HUNTER, TEAM_DEXTER, TEAM_PARANORMAL} -- , TEAM_SHOOTER
+        local availableRoles = {TEAM_HUNTER, TEAM_DEXTER, TEAM_PARANORMAL}
         local chosenRole = table.Random(availableRoles)
 
         local ply = players[math.random(1, #players)]
-        ply:SetTeam(TEAM_SHOOTER)
+        ply:SetTeam(chosenRole)
         ply:KillSilent()
         ply:Spawn()
         ply:BlockStamina()
@@ -244,11 +244,6 @@ end
         ABILITIES.SetupTeam(TEAM_PARANORMAL, "cloak")
         ABILITIES.SetupTeam(TEAM_HUNTER, "jump")
         ABILITIES.SetupTeam(TEAM_DEXTER, "skin")
-
-        if ply:Team() == TEAM_SHOOTER then
-            --ply:Flashlight(false)
-            ABILITIES.Clear(ply)
-        end
     end
 
     hook.Add("PlayerInitialSpawn", "PlayerJoinRound", function(ply)
