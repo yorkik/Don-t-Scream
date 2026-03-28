@@ -110,7 +110,6 @@ end)
 
 function monsterhud()
     if isChuchelo(LocalPlayer():Team()) then
-        if LocalPlayer():Team() == TEAM_SHOOTER then return end
         DrawMaterialOverlay( "models/props_lab/Tank_Glass001", 0 )
     end
 end
