@@ -161,7 +161,6 @@ hook.Add("Think", "ChucheloNightVision", function()
                     if ply:Team() == TEAM_SPEC then
                         dynlight.Pos = ply:GetPos() + Vector(0, 0, 64)
                     elseif isChuchelo(ply:Team()) then
-                        if ply:Team() == TEAM_SHOOTER then return end
                         dynlight.Pos = headPos
                     else
                         return
