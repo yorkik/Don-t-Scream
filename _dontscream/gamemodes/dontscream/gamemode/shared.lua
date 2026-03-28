@@ -222,14 +222,12 @@ function GM:CreateTeams()
 	TEAM_HUNTER = 3
 	TEAM_DEXTER = 4
 	TEAM_PARANORMAL = 5
-	TEAM_SHOOTER = 6
 
 	team.SetUp(TEAM_SPEC, LANG.Get('SPEC'), Color(0, 0, 0))
 	team.SetUp(TEAM_PLAYER, LANG.Get('PLAYER'), Color(255, 255, 255))
 	team.SetUp(TEAM_HUNTER, LANG.Get('HUNTER'), Color(114, 0, 0))
 	team.SetUp(TEAM_DEXTER, LANG.Get('DEXTER'), Color(114, 0, 0))
 	team.SetUp(TEAM_PARANORMAL, LANG.Get('PARANORMAL'), Color(114, 0, 0))
-	team.SetUp(TEAM_SHOOTER, LANG.Get('SHOOTER'), Color(114, 0, 0))
 
 end
 ---------------------------------------------------------------------------------------------------
